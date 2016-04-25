@@ -51,6 +51,7 @@
 		<file alias="opacity">res/icons/messages.png</file>
         <file alias="block">res/icons/block.png</file>
         <file alias="statistics">res/icons/stats.png</file>
+		<file alias="notsynced">res/icons/notsynced.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
