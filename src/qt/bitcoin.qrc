@@ -48,9 +48,10 @@
         <file alias="twitter">res/icons/twitter.png</file>
         <file alias="face">res/icons/face.png</file>
         <file alias="social">res/icons/social.png</file>
-	<file alias="opacity">res/icons/sativa.png</file>
+		<file alias="opacity">res/icons/messages.png</file>
         <file alias="block">res/icons/block.png</file>
         <file alias="statistics">res/icons/stats.png</file>
+		<file alias="notsynced">res/icons/notsynced.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>

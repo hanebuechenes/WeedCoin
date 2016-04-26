@@ -63,7 +63,7 @@ void StatisticsPage::updateStatistics()
     QString subsidy = "";
      if(pindexBest->nHeight < 7200)
     {
-		subsidy = "972 stv per block";
+		subsidy = "972 STV per block";
     }
     QString hardness = QString::number(pHardness, 'f', 6);
     QString hardness2 = QString::number(pHardness2, 'f', 6);
@@ -152,11 +152,11 @@ void StatisticsPage::updateStatistics()
 
     if(volume > volumePrevious)
     {
-        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " stv" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " STV" + "</font></b>");
     } else if(volume < volumePrevious) {
-        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " stv" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " STV" + "</font></b>");
     } else {
-        ui->volumeBox->setText(qVolume + " stv");
+        ui->volumeBox->setText(qVolume + " STV");
     }
     updatePrevious(nHeight, nMinWeight, nNetworkWeight, phase, subsidy, pHardness, pHardness2, pPawrate2, Qlpawrate, peers, volume);
 }
